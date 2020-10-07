@@ -110,6 +110,11 @@ Where:
     <!-- Changelog of the application. -->
     <history>
       <release>
+        <version>1.10.0</version>
+        <date>2020-10-07</date>
+        <change>Bring forward bersion parity to Nginx Proxy Manager 2.5.0</change>
+      </release>
+      <release>
         <version>1.9.2</version>
         <date>2020-07-10</date>
         <change>Fixed an issue where the container would fail to start if custom Nginx files are mounted by Docker.</change>
