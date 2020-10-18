@@ -146,6 +146,7 @@ RUN \
         && \
 
     python3 -m ensurepip && \
+    pip3 install certbot-dns-cloudflare && \
 
     # Install node-prune.
     echo "Installing node-prune..." && \
