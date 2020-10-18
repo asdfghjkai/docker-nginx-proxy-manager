@@ -140,7 +140,7 @@ RUN \
         patch \
         yarn \
         git \
-        python \
+        python3 \
         npm \
         bash \
         && \
