@@ -145,9 +145,6 @@ RUN \
         bash \
         && \
 
-    #Temporary fix for missing modules
-    pip3 install certbot-dns-cloudflare \
-
     # Install node-prune.
     echo "Installing node-prune..." && \
     curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | bash -s -- -b /tmp/bin && \
