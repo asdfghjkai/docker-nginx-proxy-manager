@@ -140,14 +140,10 @@ RUN \
         patch \
         yarn \
         git \
-        python3 \
+        python \
         npm \
         bash \
         && \
-
-    python3 -m ensurepip && \
-    pip3 install certbot-dns-cloudflare && \
-    pip3 install acme && \
 
     # Install node-prune.
     echo "Installing node-prune..." && \
