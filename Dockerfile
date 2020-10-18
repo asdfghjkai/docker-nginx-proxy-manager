@@ -146,7 +146,7 @@ RUN \
         && \
 
     #Temporary fix for missing modules
-    pip3 install certbot-dns-cloudflare
+    pip3 install certbot-dns-cloudflare \
 
     # Install node-prune.
     echo "Installing node-prune..." && \
