@@ -144,6 +144,8 @@ RUN \
         npm \
         bash \
         && \
+    
+    python3 -m ensurepip \
 
     # Install node-prune.
     echo "Installing node-prune..." && \
