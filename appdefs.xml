@@ -110,9 +110,14 @@ Where:
     <!-- Changelog of the application. -->
     <history>
       <release>
+        <version>1.11.0</version>
+        <date>2020-10-07</date>
+        <change>Bring forward version parity to Nginx Proxy Manager 2.6.2</change>
+      </release>
+      <release>
         <version>1.10.0</version>
         <date>2020-10-07</date>
-        <change>Bring forward bersion parity to Nginx Proxy Manager 2.5.0</change>
+        <change>Bring forward version parity to Nginx Proxy Manager 2.5.0</change>
       </release>
       <release>
         <version>1.9.2</version>
