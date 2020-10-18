@@ -12,7 +12,7 @@ ARG DOCKER_IMAGE_VERSION=unknown
 
 # Define software versions.
 ARG OPENRESTY_VERSION=1.17.8.1
-ARG NGINX_PROXY_MANAGER_VERSION=2.6.1
+ARG NGINX_PROXY_MANAGER_VERSION=2.6.0
 
 # Define software download URLs.
 ARG OPENRESTY_URL=https://openresty.org/download/openresty-${OPENRESTY_VERSION}.tar.gz
@@ -144,6 +144,9 @@ RUN \
         npm \
         bash \
         && \
+
+    #Temporary fix for missing modules
+    pip3 install certbot-dns-cloudflare
 
     # Install node-prune.
     echo "Installing node-prune..." && \
