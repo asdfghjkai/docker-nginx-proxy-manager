@@ -183,7 +183,7 @@ RUN \
     cp -r /app/backend /opt/nginx-proxy-manager && \
     cp -r /app/frontend/dist /opt/nginx-proxy-manager/frontend && \
     mkdir /opt/nginx-proxy-manager/global && \
-    cp -r /app/global /opt/nginx-proxy-manager/global/ && \
+    cp -r /app/global /opt/nginx-proxy-manager/ && \
     cp -r nginx-proxy-manager/docker/rootfs/etc/nginx /etc/ && \
     cp -r nginx-proxy-manager/docker/rootfs/var/www /var/ && \
     cp -r nginx-proxy-manager/docker/rootfs/etc/letsencrypt.ini /etc/ && \
