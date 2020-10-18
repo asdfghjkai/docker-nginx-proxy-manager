@@ -147,7 +147,7 @@ RUN \
 
     python3 -m ensurepip && \
     pip3 install certbot-dns-cloudflare && \
-    pip3 install --upgrade && \
+    pip3 install acme && \
 
     # Install node-prune.
     echo "Installing node-prune..." && \
